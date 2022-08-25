@@ -1,21 +1,30 @@
-*{
-    margin: 0;
+*{/* con esto estoy dejando los niveles en 0*/
+    margin: 0; 
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 .nav{
-    background-color:orange;
-    color: black;
+    background-color: #6d9fb5; /* aqui le doy el color de fondo a mi navbar*/
+    height: 80px; /* aqui le estoy dando altura*/
+    color: black; /*aqui estoy asignando el color de la letra*/
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: ;  
-    text-align: justify;  
+    justify-content: space-around; /* aqui estoy selecciondo dode va el texto*/
+    align-items: center; /* aqui estoy centrando el texto*/
+  
 }
 
 .links-nav{
     display: inline-flex ;
     list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
+
+
 }
 
 .links-nav li{
@@ -28,11 +37,11 @@
 }
 
 .btn{
-    background-color: rgb(128, 222, 28);
+    background-color: #9c27b0;
     border: 3px solid black;
     text-align: right;
     padding: 5px;
-    
+      
 
 }
 
