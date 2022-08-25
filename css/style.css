@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    background-color:orange;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: ;  
+    text-align: justify;  
+}
+
+.links-nav{
+    display: inline-flex ;
+    list-style: none;
+}
+
+.links-nav li{
+    margin-right: 20px;
+}
+
+.links-nav a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn{
+    background-color: rgb(128, 222, 28);
+    border: 3px solid black;
+    text-align: right;
+    padding: 5px;
+    
+
+}
+
+
