@@ -62,7 +62,7 @@
 
 .card-header {
     height: 50px;
-    background-color: rgb(227, 154, 204);
+    background-color: #7dbad4;
 }
 
 .card-body { 
@@ -144,7 +144,6 @@
     background-color: #7dbad4;
     display: flex;
     border: 2px solid gray;
-    margin-top: 15px;
     
 
 }
@@ -168,12 +167,9 @@
     border: 2px solid gray;
 }
 
-.h4 {
-    border-radius: 2%;
-}
+
 .imagen-nombre {
     display: flex;
-    border: 1px solid lightgray;
     width: 50px;
     border-radius: 50%;
 }
@@ -195,28 +191,26 @@
 }
 
 .amigos {
-    flex-direction: column;
     border: 2px solid gray;
-    display: flex;
+    display: block;
+    
+    
 
 }
 
 .imagen-amigo {
-    display: flex;
-    padding: 15px;
+    width: 15px;
     border-radius: 50%;
     flex-direction: row;
     
 }
 
-.imagenNombreAmigo {
+/*.imagenNombreAmigo {
     display: grid;
-    border: 1px solid lightgray;
-    width: 50px;
     border-radius: 50%;
-}
+}*/
 .view-more {
-    text-decoration: dotted;
+    text-decoration: underline;
     color: blue;
 }
 
